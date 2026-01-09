@@ -1,3 +1,5 @@
+color palette: https://catppuccin.com/<br>
+<br>
 hyprland<br>
 waybar<br>
 kitty<br>
