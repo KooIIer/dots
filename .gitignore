@@ -4,3 +4,9 @@ hypr/hyprpaper.conf.bak
 hypr/modules/look.conf.bak
 hypr/modules/rules.conf.bak
 hypr/modules/rules.conf.newbug
+
+fastfetch/gen.py
+fastfetch/gen.py.bak
+fastfetch/config.jsonc.bak
+fastfetch/config.jsonc.bak.color
+fastfetch/config.jsonc.template.bak

@@ -7,4 +7,5 @@ nvim<br>
 noti<br>
 waterfox<br>
 fastfetch<br>
+rofi<br>
 ???<br>

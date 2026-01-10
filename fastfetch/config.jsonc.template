@@ -1,0 +1,184 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "percent": {
+            "color": {
+                "green": "__COLOR3__",
+                "yellow": "__COLOR3__",
+                "red": "__COLOR3__"
+            }
+        }
+    },
+    "logo": {
+        "type": "kitty",
+        "source": "/home/kooller/Pictures/arch/arch-logo.png",
+        "width": 32,
+        "padding": {
+            "right": 2
+        }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "color": {
+                "user": "__COLOR2__",
+                "at": "__COLOR1__",
+                "host": "__COLOR2__"
+            }
+        },
+        {
+            "type": "separator",
+            "outputColor": "__COLOR1__",
+            "string": "─",
+            "length": 30
+        },
+        {
+            "type": "custom",
+            "key": "󰘚 system",
+            "value": "",
+            "keyColor": "__COLOR2__"
+        },
+        {
+            "type": "os",
+            "key": "   os",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{pretty-name}"
+        },
+        {
+            "type": "kernel",
+            "key": "  󰣇 kernel",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{release}"
+        },
+        {
+            "type": "bios",
+            "key": "  󰣖 bios",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{type} {version}"
+        },
+        {
+            "type": "packages",
+            "key": "  󰏖 packages",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20
+        },
+        {
+            "type": "custom",
+            "key": "󰒓 hardware",
+            "value": "",
+            "keyColor": "__COLOR2__"
+        },
+        {
+            "type": "board",
+            "key": "   motherboard",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{name}"
+        },
+        {
+            "type": "cpu",
+            "key": "   cpu",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{name}"
+        },
+        {
+            "type": "gpu",
+            "key": "  󰾲 gpu",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{name}"
+        },
+        {
+            "type": "memory",
+            "key": "   ram",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{total}"
+        },
+        {
+            "type": "physicaldisk",
+            "key": "   disk",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{size} {physical-type}"
+        },
+        {
+            "type": "monitor",
+            "key": "  󰍹 monitor",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{width}x{height} {refresh-rate}hz"
+        },
+        {
+            "type": "custom",
+            "key": "󰣺 net",
+            "value": "",
+            "keyColor": "__COLOR2__"
+        },
+        {
+            "type": "wifi",
+            "key": "  󰖩 wifi",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{band} ghz {protocol} {security}"
+        },
+        {
+            "type": "publicip",
+            "key": "  󰖟 location",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{location}"
+        },
+        {
+            "type": "custom",
+            "key": "󰞷 env",
+            "value": "",
+            "keyColor": "__COLOR2__"
+        },
+        {
+            "type": "wm",
+            "key": "  󰧨 wm",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{pretty-name}"
+        },
+        {
+            "type": "shell",
+            "key": "   shell",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{pretty-name}"
+        },
+        {
+            "type": "terminal",
+            "key": "  󰆍 terminal",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{pretty-name}"
+        },
+        {
+            "type": "custom",
+            "key": " runtime",
+            "value": "",
+            "keyColor": "__COLOR2__"
+        },
+        {
+            "type": "uptime",
+            "key": "  󰅐 uptime",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{formatted}"
+        },
+        {
+            "type": "processes",
+            "key": "  󰒓 processes",
+            "keyColor": "__COLOR1__",
+            "keyWidth": 20,
+            "format": "{result}"
+        }
+    ]
+}
