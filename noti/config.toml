@@ -1,0 +1,44 @@
+[[theme]]
+name = "main"
+
+[general]
+font = "JetBrainsMono Nerd Font"
+anchor = "top"
+offset = [15, 15]
+width = 250
+height = 64
+gap = 8
+limit = 5
+sorting = "time"
+
+[theme.normal]
+background = "#11111b"
+foreground = "#ffffff"
+[theme.normal.border]
+mode = "linear-gradient"
+degree = 45
+colors = ["#cba6f7", "#b4befe"]
+
+[display]
+markup = true
+# padding = 100
+theme = "main"
+
+[display.border]
+size = 2
+radius = 20
+
+[display.timeout]
+default = 3000
+critical = 0
+
+[display.text]
+font_size = 20
+alignment = "center"
+justify = true
+# ellipsize = "end"
+wrap = true
+
+# [display.icons]
+# theme = "Papirus-Dark"
+# size = [64, 32, 16]
