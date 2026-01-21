@@ -8,4 +8,5 @@ noti<br>
 waterfox<br>
 fastfetch<br>
 rofi<br>
+cava<br>
 ???<br>
