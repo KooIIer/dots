@@ -1,0 +1,53 @@
+configuration {
+    modi: "drun,run,window";
+    font: "JetBrainsMono Nerd Font 12";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    /* play-drun: " "; */
+	display-drun: " ";
+}
+
+@import "catppuccin-mocha.rasi"
+
+* {
+    selected-normal-background: __COLOR2__;
+    selected-normal-foreground: __COLOR0__;
+}
+
+window {
+    border: 2px;
+    border-radius: 12px;
+    border-color: __COLOR1__;
+    padding: 10px;
+    transparency: "real";
+    background-color: __COLOR0__B3;
+}
+
+listview {
+    alternate-row: false;
+}
+
+scrollbar {
+    handle-color: __COLOR1__;
+    border: 0px;
+    background: __COLOR0__;
+}
+
+
+* {
+    normal-background: transparent;
+    alternate-normal-background: transparent;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @normal-foreground;
+}
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @normal-foreground;
+}
+
+entry {
+  placeholder: "";
+}
