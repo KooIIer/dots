@@ -1,4 +1,5 @@
 color palette: https://catppuccin.com/<br>
+wallpaper: https://github.com/zhichaoh/catppuccin-wallpapers<br>
 <br>
 hyprland<br>
 waybar<br>
