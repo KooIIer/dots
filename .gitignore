@@ -15,3 +15,8 @@ cava/config.bak
 
 rofi/gradient.png
 rofi/config.rasi.bak
+
+nvim/lazy-lock.json
+nvim/lua/kooller/remap.lua.bak
+nvim/lua/kooller/remap.lua.bak.bak
+nvim/lua/kooller/lazy/colorscheme.lua.bak

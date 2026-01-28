@@ -1,0 +1,28 @@
+return {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+    config = function()
+        require("catppuccin").setup({
+            flavour = "mocha",
+            color_overrides = {
+                mocha = {
+                    base = "__COLOR0__",
+                    mauve = "__COLOR1__",
+                    lavender = "__COLOR2__",
+                    blue = "__COLOR3__",
+                },
+            },
+            integrations = {
+                cmp = true,
+                gitsigns = true,
+                nvimtree = true,
+                telescope = true,
+                treesitter = true,
+                mason = true,
+                fidget = true,
+            },
+        })
+        vim.cmd.colorscheme("catppuccin")
+    end,
+}

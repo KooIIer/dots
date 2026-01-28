@@ -1,0 +1,17 @@
+return {
+    require("kooller.lazy.dashboard"),
+    require("kooller.lazy.autopairs"),
+    require("kooller.lazy.illuminate"),
+    require("kooller.lazy.indent-blankline"),
+    require("kooller.lazy.lsp"),
+    require("kooller.lazy.nvimtree"),
+    require("kooller.lazy.treesitter"),
+    require("kooller.lazy.lualine"),
+    require("kooller.lazy.telescope"),
+    require("kooller.lazy.which-key"),
+    require("kooller.lazy.noice"),
+    require("kooller.lazy.comment"),
+    require("kooller.lazy.cmp"),
+    -- require("kooller.lazy.scrolleof"),
+    require("kooller.lazy.image"),
+}
