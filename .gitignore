@@ -20,3 +20,7 @@ nvim/lazy-lock.json
 nvim/lua/kooller/remap.lua.bak
 nvim/lua/kooller/remap.lua.bak.bak
 nvim/lua/kooller/lazy/colorscheme.lua.bak
+
+waybar/newws.css
+waybar/style.css.bak
+waybar/config.jsonc.bak

@@ -26,7 +26,7 @@ wk.add({
         mode = "v"
     },
 
-    { "e", "i", mode = "n" },
+    { "e", "a", mode = "n" },
 
     { "<leader>g", vim.lsp.buf.definition, desc = "Go to definition", mode = "n" },
     { "<leader>k", vim.lsp.buf.hover, desc = "Show hover info", mode = "n" },

@@ -1,0 +1,137 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+
+    "modules-left": ["hyprland/workspaces", "custom/sep", "cpu", "memory", "custom/gpu"],
+    // "modules-center": ["clock", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/speed", "custom/ping", "custom/sep", "custom/bluetooth_battery", "hyprland/language", "pulseaudio", "network", "custom/updates", "tray"],
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "show-special": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2", 
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7", 
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "16": "s",
+            "telegram": "t",
+            "default": "{}" //ы
+        }
+    },
+
+    "custom/updates": {
+        "exec": "~/scripts/updates.sh",
+        "interval": 600,
+        "return-type": "json",
+        "format": "󰏖 {}"
+    },
+
+    "custom/sep": {
+        "tooltip": false,
+        "format": "    "
+    },
+
+    "custom/speed": {
+        "tooltip": false,
+        "exec": "~/scripts/speed",
+        "tail": true,
+        "format": "{}"
+    },
+
+    "custom/ping": {
+        "tooltip": false,
+        "exec": "~/scripts/ping",
+        "tail": true,
+        "format": "{}"
+    },
+
+    "custom/gpu": {
+        "tooltip": false,
+        // "exec": "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits",
+        "exec": "~/scripts/gpu",
+        // "interval": 3,
+        "tail": true,
+        "format": "<span font='Material Symbols Rounded' size='15000'>󰾲</span> {}%"
+    },
+
+    "custom/bluetooth_battery": {
+        "tooltip": false,
+        "exec": "~/scripts/battery",
+        "interval": 30,
+        "return-type": "json",
+        "format": "{}"
+    },
+
+    "clock": {
+        "tooltip": false,
+        "format": " {0:%H:%M:%S}   {0:%d.%m.%Y}",
+        "interval": 1
+    },
+
+    "cpu": {
+        "tooltip": false,
+        "format": " {usage}%",
+        "interval": 3,
+        // "format-critical": "<span color='#f38ba8'><b> {usage}%</b></span>",
+        // "format-high":     "<span color='#f9e2af'> {usage}%</span>",
+        // "format-medium":   "<span color='#a6e3a1'> {usage}%</span>",
+        // "format-low":      "<span color='#6c7086'> {usage}%</span>",
+        // "states": {
+            // "critical": 90,
+            // "high": 70,
+            // "medium": 30,
+            // "low": 0
+        // }
+    },
+
+    "memory": {
+        "tooltip": false,
+        "format": " {percentage}%",
+        "interval": 3
+    },
+
+    "battery": {
+        "tooltip": false,
+        "format": "{capacity}% {icon}",
+        "format-icons": ["","","","",""]
+    },
+
+    "network": {
+        "tooltip": false,
+        "format-wifi": " {essid}",
+        "format-ethernet": " {ifname}",
+        "format-disconnected": ""
+    },
+
+    "pulseaudio": {
+        "tooltip": false,
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "default": ["","",""]
+        }
+    },
+
+    "tray": {
+        "icon-size": 15,
+        "spacing": 8
+    },
+
+    "hyprland/language": {
+        "tooltip": false,
+        "keyboard": "usb-keyboard-usb-keyboard",
+        "format": "  {}",
+        "format-en": "EN",
+        "format-ru": "RU"
+    }
+}
